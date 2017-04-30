@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
@@ -26,6 +26,10 @@ author :
 production_url : http://sabarnac.github.io
 
 gems: ["jekyll-sitemap"]
+
+gems: ["jekyll-paginate"]
+paginate: 5
+paginate_path: "/:num/"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #

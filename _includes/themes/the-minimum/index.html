@@ -1,0 +1,72 @@
+{% for post in paginator.posts %}
+<article class="unit-article layout-post">
+    <div class="unit-inner unit-article-inner">
+        <div class="content">
+            <header>
+                <div class="unit-head">
+                    <div class="unit-inner unit-head-inner">
+                        <h1 class="h2 entry-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                    </div>
+                    <!-- unit-inner -->
+                </div>
+                <!-- unit-head -->
+            </header>
+
+            <div class="bd">
+                <div class="entry-content">
+                    <div class="meta">
+                        <ul class="list-category list-linear">
+                            <li class="list-head">Category: </li>
+                            {% assign categories_list = post.categories %} {% include JB/categories_list %}
+                        </ul>
+                        <p class="date-publish">
+                            Published:
+                            <date class="date-pub" title="{{ post.date | date_to_xmlschema }}" datetime="{{ post.date | date_to_xmlschema }}" pubdate>
+                                <span class="day">
+                                    {% assign d = post.date | date: '%-d'  %}
+                                    {% case d %}
+                                        {% when '1' or '21' or '31' %}{{ post.date | date: '%d' }}<sup>st</sup>
+                                        {% when '2' or '22' %}{{ post.date | date: '%d' }}<sup>nd</sup>
+                                        {% when '3' or '23' %}{{ post.date | date: '%d' }}<sup>rd</sup>
+                                        {% else %}{{ post.date | date: '%d' }}<sup>th</sup>
+                                    {% endcase %}
+                                </span>
+                                <span class="month"><abbr>{{ post.date | date: '%b' }}</abbr></span>,
+                                <span class="year">{{ post.date | date: '%Y' }}</span>
+                            </date>
+                        </p>
+                    </div>
+                    {{ post.content | truncatewords: 100 }}
+                    <!-- meta -->
+                    <div style="margin-bottom: 30px; float: right;">
+                        <a href="{{ post.url }}" style="text-align: center;display: inline-block;width: 100px;padding: 10px;background: #BADA55;border-radius: 5px">READ MORE</a>
+                    </div>
+                </div>
+                <!-- entry-content -->
+
+            </div>
+            <!-- bd -->
+
+        </div>
+        <!-- content -->
+    </div>
+    <!-- unit-inner -->
+</article>
+{% endfor %}
+{% if paginator.total_pages > 1 %}
+<div style="padding: 20px; text-align: center;">
+    <div class="pagination" style="display: inline-block;">
+    {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path }}" class="previous" style="display: inline-block;width: 75px;padding: 10px;background: #BADA55;border-radius: 5px">Previous</a>
+    {% else %}
+        <span class="previous" style="display: inline-block;width: 75px;padding: 10px;background: rgba(21, 25, 25, 0.8);color: #fafafa;border-radius: 5px">Previous</span>
+    {% endif %}
+    <span class="page_number" style="padding: 0 50px;">Page: <strong>{{ paginator.page }}</strong> of <strong>{{ paginator.total_pages }}</strong></span>
+    {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path }}" class="next" style="display: inline-block;width: 75px;padding: 10px;background: #BADA55;border-radius: 5px;">Next</a>
+    {% else %}
+        <span class="next" style="display: inline-block;width: 75px;padding: 10px;background: rgba(21, 25, 25, 0.8);color: #fafafa;border-radius: 5px">Next</span>
+    {% endif %}
+    </div>
+</div>
+{% endif %}
