@@ -439,6 +439,7 @@ pre {
 
 .unit-article img {
     display: block;
+    max-width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -691,7 +692,7 @@ pre {
 .unit-article .entry-content,
 .unit-article .misc-content,
 .unit-article .unit-foot-inner {
-    width: 15em;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -892,7 +893,7 @@ pre {
     .unit-article .entry-content,
     .unit-article .misc-content,
     .unit-article .unit-foot-inner {
-        width: 43.125em;
+        width: 80%;
     }
     .unit-article .unit-head-inner .meta {
         margin-bottom: 0;
