@@ -4,7 +4,7 @@ title:  "Welcome to My Blog!"
 date:   2017-05-01 00:00:00 +0530
 categories: misc personal
 ---
-![](https://imgs.xkcd.com/comics/code_quality.png)
+[![](https://imgs.xkcd.com/comics/code_quality.png)](https://xkcd.com/1513/)
 
 Welcome! I decided to start this personal little blog to post my various coding adventures and mishaps,
 as well as any random tidbits from my life. Hopefully, the posts here won't make you feel like the name
@@ -18,4 +18,4 @@ I do plan to figure out the theme API for this bootstrap and create my own theme
 
 I hope I won't regret this later on in life. For now I guess I'll just have to enjoy the ride and hope for the best. Wish me luck!
 
-![](https://imgs.xkcd.com/comics/future_self.png)
+[![](https://imgs.xkcd.com/comics/future_self.png)](https://xkcd.com/1421/)
