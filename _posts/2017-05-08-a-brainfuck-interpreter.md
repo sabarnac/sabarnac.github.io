@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "A Brainfuck Interpreter"
-date: 2017-05-08 12:02:10
+date: 2017-05-08 12:02:10 +0530
 category: brainfuck project
 ---
 <blockquote class="imgur-embed-pub" lang="en" data-id="ctCM6rb" style="width: 100%;"><a href="//imgur.com/ctCM6rb">Brainfuck</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
