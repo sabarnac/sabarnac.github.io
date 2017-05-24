@@ -2,7 +2,7 @@
 layout: post
 title: "Create To Maintain"
 date: 2017-05-23 20:37:33 +0530
-categories: misc personal project
+categories: misc project programming software-development
 ---
 [![XKCD - Donal Knuth](https://imgs.xkcd.com/comics/donald_knuth.png)](https://www.xkcd.com/163/)
 
