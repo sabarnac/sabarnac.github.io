@@ -4,7 +4,7 @@ title:  "Welcome to My Blog!"
 date:   2017-05-01 00:00:00 +0530
 categories: misc personal
 ---
-[![](https://imgs.xkcd.com/comics/code_quality.png)](https://xkcd.com/1513/)
+[![XKCD - Code Quality](https://imgs.xkcd.com/comics/code_quality.png)](https://xkcd.com/1513/)
 
 Welcome! I decided to start this personal little blog to post my various coding adventures and mishaps,
 as well as any random tidbits from my life. Hopefully, the posts here won't make you feel like the name
