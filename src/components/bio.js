@@ -82,6 +82,7 @@ const Bio = () => {
                 key={key}
                 href={`${socialLinksPrefix[key]}${social[key]}`}
                 className="social-link"
+                target="_blank"
               >
                 <i className={`socicon-${key.toLowerCase()}`} />
               </a>
