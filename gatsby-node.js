@@ -50,7 +50,7 @@ exports.createPages = async ({ graphql, actions }) => {
   });
 
   // Create blog-list pages
-  const postsPerPage = 6;
+  const postsPerPage = 10;
   const numPages = Math.ceil(posts.length / postsPerPage);
   createPage({
     path: `/1`,
