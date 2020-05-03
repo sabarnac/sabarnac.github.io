@@ -109,13 +109,18 @@ const Layout = ({ location, title, children }) => {
       >
         &copy; {new Date().getFullYear()} | Built with
         {` `}
-        <a href="https://www.gatsbyjs.org" target="_blank">
+        <a
+          href="https://www.gatsbyjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Gatsby
         </a>{" "}
         using{" "}
         <a
           href="https://github.com/gatsbyjs/gatsby-starter-blog"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Gatsby Blog Starter
         </a>
