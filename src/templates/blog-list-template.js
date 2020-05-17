@@ -16,7 +16,7 @@ const BlogList = ({
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title="All posts" />
+      <SEO title={`${currentPage > 1 ? `Page ${currentPage} | ` : ``}Home`} />
       <Bio />
       <hr
         style={{
@@ -57,7 +57,7 @@ const BlogList = ({
               </div>
             </header>
             <section>
-              <p
+              <div
                 dangerouslySetInnerHTML={{
                   __html: node.excerpt,
                 }}
