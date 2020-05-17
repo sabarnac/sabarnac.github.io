@@ -13,10 +13,15 @@ const BlogList = ({
 }) => {
   const siteTitle = data.site.siteMetadata.title;
   const posts = data.allMarkdownRemark.edges;
+  const rootPath = `${__PATH_PREFIX__}/`;
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={`${currentPage > 1 ? `Page ${currentPage} | ` : ``}Home`} />
+      <SEO
+        title={`${
+          location.pathname !== rootPath ? `Page ${currentPage} | ` : ``
+        }Home`}
+      />
       <Bio />
       <hr
         style={{
