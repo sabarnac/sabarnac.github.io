@@ -49,11 +49,11 @@ export default React.memo(
             description,
             author: {
               "@type": "Person",
-              name: author.name,
+              name: author,
             },
             publisher: {
               "@type": "Person",
-              name: author.name,
+              name: author,
             },
             mainEntityOfPage: {
               "@type": "WebSite",

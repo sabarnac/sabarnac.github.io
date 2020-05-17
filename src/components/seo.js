@@ -26,6 +26,7 @@ const SEO = ({
         site {
           siteMetadata {
             title
+            siteUrl
             author {
               name
             }
