@@ -3,6 +3,7 @@ import Image from "gatsby-image"
 import React from "react"
 
 import { rhythm, scale } from "../utils/typography"
+import { isBlogPostPage } from "./util"
 
 const Layout = ({ location, title, children }) => {
   const data = useStaticQuery(graphql`
@@ -30,9 +31,7 @@ const Layout = ({ location, title, children }) => {
     }
   `);
 
-  const rootPath = `${__PATH_PREFIX__}/`;
-
-  const SiteTitleComponent = location.pathname === rootPath ? "h1" : "h3";
+  const SiteTitleComponent = isBlogPostPage() ? "h1" : "h3";
 
   const header = (
     <SiteTitleComponent

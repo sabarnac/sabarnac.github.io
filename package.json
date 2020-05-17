@@ -40,7 +40,6 @@
     "typography-theme-stern-grove": "^0.16.19"
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0",
     "prettier": "2.0.5"
   },
   "homepage": "https://sabarnac.github.io/",
@@ -51,7 +50,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "npm run clean && npm run build && gh-pages -d public -b master",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   }
 }
