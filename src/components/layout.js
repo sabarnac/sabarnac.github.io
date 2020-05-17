@@ -31,7 +31,7 @@ const Layout = ({ location, title, children }) => {
     }
   `);
 
-  const SiteTitleComponent = isBlogPostPage() ? "h1" : "h3";
+  const SiteTitleComponent = isBlogPostPage(location.pathname) ? "h1" : "h3";
 
   const header = (
     <SiteTitleComponent
