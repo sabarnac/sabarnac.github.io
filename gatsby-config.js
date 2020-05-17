@@ -61,6 +61,12 @@ module.exports = {
     //   },
     // },
     {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+        shortname: `sabarnac-github`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `

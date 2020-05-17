@@ -51,7 +51,7 @@ SternGrove.overrideThemeStyles = () => ({
     boxShadow: `none`,
   },
   article: {
-    borderBottom: `1px solid #eeeeee`,
+    borderBottom: `1px dashed #eeeeee`,
     paddingBottom: typography.rhythm(1),
   },
   "nav > ul > li": {
@@ -64,6 +64,10 @@ SternGrove.overrideThemeStyles = () => ({
     listStyle: `none`,
     padding: `${typography.rhythm(1)} 0`,
     margin: 0,
+  },
+  "div.comments": {
+    borderTop: `1px solid #eeeeee`,
+    paddingTop: typography.rhythm(1),
   },
   blockquote: {
     borderLeft: `${typography.rhythm(1 / 4)} solid #232323`,
