@@ -50,7 +50,10 @@ const BlogList = ({
                 }}
               >
                 <small>Written: {node.frontmatter.date}</small>
-                <small>Reading Time: {node.timeToRead} minutes</small>
+                <small>
+                  Reading Time: {node.timeToRead}{" "}
+                  {node.timeToRead === 1 ? "minute" : "minutes"}
+                </small>
               </div>
             </header>
             <section>
@@ -113,7 +116,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 200)
+          excerpt(pruneLength: 250, format: HTML)
           timeToRead
           fields {
             slug

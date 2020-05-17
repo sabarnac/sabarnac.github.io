@@ -5,7 +5,7 @@ date: 2019-01-03 01:09:48 +0530
 
 _Do note that starting from just a PoC is not always possible for every scenario and every project, but a starting point to see if something can work or not is a big benefit nonetheless._
 
-![PoC Meme](https://memegenerator.net/img/instances/67101634/brace-yourselves-a-proof-of-concept-is-coming.jpg)
+![PoC Meme](./intro-meme.jpg)
 
 A "Proof of Concept" (PoC) is a term that most programmers are familiar with. If not, there's multiple articles online that describe a concept (including [Wikipedia](https://en.wikipedia.org/wiki/Proof_of_concept)), and many that describe the benefits, this being one of them.
 

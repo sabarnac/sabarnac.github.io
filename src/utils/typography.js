@@ -2,6 +2,9 @@ import Typography from "typography"
 import SternGrove from "typography-theme-stern-grove"
 
 SternGrove.overrideThemeStyles = () => ({
+  "html, body": {
+    background: `#000000`,
+  },
   a: {
     color: `#0077ee`,
     textDecoration: `none`,
@@ -30,20 +33,22 @@ SternGrove.overrideThemeStyles = () => ({
   "a.gatsby-resp-image-link": {
     boxShadow: `none`,
   },
-  "html, body": {
-    background: `#000000`,
-  },
   "article > section": {
     textAlign: `justify`,
   },
   "div.gatsby-highlight[data-language]": {
     fontSize: `16px`,
     marginBottom: typography.rhythm(1),
+    backgroundColor: `#111111`,
   },
   "div.gatsby-highlight[data-language] > pre": {
     overflowX: `auto`,
     margin: 0,
-    padding: 0,
+    padding: typography.rhythm(1 / 2),
+  },
+  "div.gatsby-highlight[data-language] > pre > code": {
+    background: `none`,
+    boxShadow: `none`,
   },
   article: {
     borderBottom: `1px solid #eeeeee`,
@@ -59,6 +64,12 @@ SternGrove.overrideThemeStyles = () => ({
     listStyle: `none`,
     padding: `${typography.rhythm(1)} 0`,
     margin: 0,
+  },
+  blockquote: {
+    borderLeft: `${typography.rhythm(1 / 4)} solid #232323`,
+    padding: `${typography.rhythm(1 / 2)} ${typography.rhythm(1 / 1.5)}`,
+    background: `#111111`,
+    color: `#eeeeee`,
   },
 });
 
