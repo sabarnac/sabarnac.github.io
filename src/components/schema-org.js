@@ -51,10 +51,6 @@ export default React.memo(
               "@type": "Person",
               name: author,
             },
-            publisher: {
-              "@type": "Person",
-              name: author,
-            },
             mainEntityOfPage: {
               "@type": "WebSite",
               "@id": siteUrl,
