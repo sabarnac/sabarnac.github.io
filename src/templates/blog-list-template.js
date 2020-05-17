@@ -22,6 +22,7 @@ const BlogList = ({
   return (
     <Layout location={location} title={siteTitle}>
       <SEO
+        location={location}
         title={`${
           rootPaths.indexOf(location.pathname) === -1
             ? `Page ${currentPage} | `

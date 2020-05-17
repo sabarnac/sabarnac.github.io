@@ -110,16 +110,7 @@ SternGrove.overrideThemeStyles = () => ({
 
 const typography = new Typography({
   ...SternGrove,
-  googleFonts: [
-    {
-      name: `Roboto Condensed`,
-      styles: [`400`, `600`, `700`],
-    },
-    {
-      name: `Roboto`,
-      styles: [`400`, `600`, `700`],
-    },
-  ],
+  googleFonts: [],
   headerFontFamily: [`Roboto`, `sans-serif`],
   bodyFontFamily: [`Roboto Condensed`, `sans-serif`],
   headerColor: `#eeeeee`,
