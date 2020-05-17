@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Coding Disappointment]]></title><description><![CDATA[A personal little blog to post my various coding adventures and mishaps, as well as any random tidbits from my life.]]></description><link>https://sabarnac.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 May 2020 21:35:12 GMT</lastBuildDate><item><title><![CDATA[A PoC Beginning]]></title><description><![CDATA[Do note that starting from just a PoC is not always possible for every scenario and every project, but a starting point to see if something…]]></description><link>https://sabarnac.github.io/2019/01/03/a-poc-beginning/</link><guid isPermaLink="false">https://sabarnac.github.io/2019/01/03/a-poc-beginning/</guid><pubDate>Wed, 02 Jan 2019 19:39:48 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Do note that starting from just a PoC is not always possible for every scenario and every project, but a starting point to see if something can work or not is a big benefit nonetheless.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://memegenerator.net/img/instances/67101634/brace-yourselves-a-proof-of-concept-is-coming.jpg&quot; alt=&quot;PoC Meme&quot;&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[The Coding Disappointment]]></title><description><![CDATA[A personal little blog to post my various coding adventures and mishaps, as well as any random tidbits from my life.]]></description><link>https://sabarnac.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 17 May 2020 10:07:59 GMT</lastBuildDate><item><title><![CDATA[A PoC Beginning]]></title><description><![CDATA[Do note that starting from just a PoC is not always possible for every scenario and every project, but a starting point to see if something…]]></description><link>https://sabarnac.github.io/2019/01/03/a-poc-beginning/</link><guid isPermaLink="false">https://sabarnac.github.io/2019/01/03/a-poc-beginning/</guid><pubDate>Wed, 02 Jan 2019 19:39:48 GMT</pubDate><content:encoded>&lt;p&gt;&lt;em&gt;Do note that starting from just a PoC is not always possible for every scenario and every project, but a starting point to see if something can work or not is a big benefit nonetheless.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 600px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/540f43188374cf80aab7f4085707f5c9/b4294/intro-meme.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.875%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAPABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAABQAE/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAXikgI3wMf/EABsQAAICAwEAAAAAAAAAAAAAAAECBBIAAyER/9oACAEBAAEFAvBkogMkk1tx3GwM3f/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABwQAAICAgMAAAAAAAAAAAAAAAARATESITJRof/aAAgBAQAGPwKiLc9HD1DWjLKHdGtn/8QAGhABAQEBAQEBAAAAAAAAAAAAAREAIUExYf/aAAgBAQABPyFRqMeCOB+9EOpyxjKpHuQRUpr55hIQPGb/2gAMAwEAAgADAAAAEO8//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEh/9oACAEDAQE/EIx//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAEh/9oACAECAQE/EK1//8QAGxABAAMBAQEBAAAAAAAAAAAAAQARITFRQWH/2gAIAQEAAT8QtAPqQs6aGwOZx7svAvYAU60/sqJLVscJXMfsxWHuYSnFgAijzZ//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;PoC Meme&quot;
+        title=&quot;PoC Meme&quot;
+        src=&quot;/static/540f43188374cf80aab7f4085707f5c9/b4294/intro-meme.jpg&quot;
+        srcset=&quot;/static/540f43188374cf80aab7f4085707f5c9/0913d/intro-meme.jpg 160w,
+/static/540f43188374cf80aab7f4085707f5c9/cb69c/intro-meme.jpg 320w,
+/static/540f43188374cf80aab7f4085707f5c9/b4294/intro-meme.jpg 600w&quot;
+        sizes=&quot;(max-width: 600px) 100vw, 600px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;A “Proof of Concept” (PoC) is a term that most programmers are familiar with. If not, there’s multiple articles online that describe a concept (including &lt;a href=&quot;https://en.wikipedia.org/wiki/Proof_of_concept&quot;&gt;Wikipedia&lt;/a&gt;), and many that describe the benefits, this being one of them.&lt;/p&gt;
 &lt;p&gt;A PoC, while not always possible or required to create before starting a project, can provide a ton of benefits to a developer in figuring out their project, from a high-level design and requirements down to even low-level component design. The obvious benefit is that as a PoC is built, the requirements of the application become well understood and a clear higher-level design can be crafted based on experience from building the PoC. This experience can also benefit low-level component design, since understanding how the software has to function can help figure out how components have to be made to ensure a high enough quality for the project is maintained, which is great for reducing your &lt;strong&gt;&lt;em&gt;WTFs/min&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://www.osnews.com/story/19266/WTFs_m&quot;&gt;&lt;img src=&quot;https://blog.codinghorror.com/content/images/uploads/2009/02/6a0120a85dcdae970b012877707a45970c-pi.png&quot; alt=&quot;XKCD - Donal Knuth&quot;&gt;&lt;/a&gt;&lt;/p&gt;
