@@ -45,7 +45,7 @@ const Bio = () => {
   return (
     <div
       style={{
-        background: `#222222`,
+        background: `#171717`,
         color: `#ffffff`,
         padding: rhythm(1),
         borderRadius: rhythm(1 / 2),
@@ -68,7 +68,6 @@ const Bio = () => {
           }}
           imgStyle={{
             borderRadius: `50%`,
-            border: `1px solid #111111`,
           }}
         />
         <div>
@@ -85,7 +84,7 @@ const Bio = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className={`socicon-${key.toLowerCase()}`} />
+                {key}
               </a>
             ))}
           </div>

@@ -2,7 +2,7 @@ import { graphql, Link, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 import React from "react"
 
-import { rhythm, scale } from "../utils/typography"
+import { rhythm } from "../utils/typography"
 import { isBlogPostPage } from "./util"
 
 const Layout = ({ location, title, children }) => {
@@ -34,15 +34,7 @@ const Layout = ({ location, title, children }) => {
   const SiteTitleComponent = isBlogPostPage(location.pathname) ? "h1" : "h3";
 
   const header = (
-    <SiteTitleComponent
-      style={{
-        ...scale(1.5),
-        margin: rhythm(0.5),
-        display: `flex`,
-        alignItems: `center`,
-        justifyContent: `space-evenly`,
-      }}
-    >
+    <SiteTitleComponent id="site-title">
       <Image
         fixed={data.icon.childImageSharp.fixed}
         alt={title}
@@ -75,7 +67,7 @@ const Layout = ({ location, title, children }) => {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(30),
-          background: `#222222`,
+          background: `#171717`,
           textAlign: `center`,
           padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
           marginBottom: rhythm(1.5),
@@ -100,7 +92,7 @@ const Layout = ({ location, title, children }) => {
           marginLeft: `auto`,
           marginRight: `auto`,
           maxWidth: rhythm(30),
-          background: `#222222`,
+          background: `#171717`,
           padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
           textAlign: `center`,
           borderRadius: `${rhythm(1)} ${rhythm(1)} 0 0`,

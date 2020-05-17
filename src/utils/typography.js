@@ -5,6 +5,29 @@ SternGrove.overrideThemeStyles = () => ({
   "html, body": {
     background: `#000000`,
   },
+  "#site-title": {
+    ...typography.scale(1),
+    margin: typography.rhythm(1 / 2),
+    display: `flex`,
+    flexDirection: `column`,
+    alignItems: `center`,
+    justifyContent: `center`,
+  },
+  "#site-title > a": {
+    paddingTop: typography.rhythm(1 / 2),
+  },
+  "@media only screen and (min-width:25rem)": {
+    "#site-title": {
+      ...typography.scale(1),
+      margin: typography.rhythm(1 / 2),
+      display: `flex`,
+      flexDirection: `row`,
+      justifyContent: `space-evenly`,
+    },
+    "#site-title > a": {
+      paddingTop: 0,
+    },
+  },
   a: {
     color: `#0077ee`,
     textDecoration: `none`,
@@ -18,8 +41,12 @@ SternGrove.overrideThemeStyles = () => ({
   },
   "a.social-link": {
     padding: `0 ${typography.rhythm(1 / 4)}`,
-    fontSize: typography.rhythm(1),
+    fontSize: typography.rhythm(1 / 2),
     color: `#ff8866`,
+    borderLeft: `1px solid #ffffff`,
+  },
+  "a.social-link:first-child": {
+    borderLeft: `none`,
   },
   "a.social-link:hover": {
     color: `#ee3322`,
@@ -39,12 +66,13 @@ SternGrove.overrideThemeStyles = () => ({
   "div.gatsby-highlight[data-language]": {
     fontSize: `16px`,
     marginBottom: typography.rhythm(1),
-    backgroundColor: `#111111`,
+    backgroundColor: `#171717`,
   },
   "div.gatsby-highlight[data-language] > pre": {
     overflowX: `auto`,
     margin: 0,
     padding: typography.rhythm(1 / 2),
+    background: `none`,
   },
   "div.gatsby-highlight[data-language] > pre > code": {
     background: `none`,
@@ -70,10 +98,13 @@ SternGrove.overrideThemeStyles = () => ({
     paddingTop: typography.rhythm(1),
   },
   blockquote: {
-    borderLeft: `${typography.rhythm(1 / 4)} solid #232323`,
-    padding: `${typography.rhythm(1 / 2)} ${typography.rhythm(1 / 1.5)}`,
-    background: `#111111`,
+    borderLeft: `${typography.rhythm(1 / 4)} solid #252525`,
+    padding: `${typography.rhythm(1 / 2)} ${typography.rhythm(2 / 3)}`,
+    background: `#171717`,
     color: `#eeeeee`,
+  },
+  "twitter-widget.twitter-tweet": {
+    margin: `0 auto ${typography.rhythm(1)} auto !important`,
   },
 });
 
