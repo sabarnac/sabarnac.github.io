@@ -1,5 +1,5 @@
 ---
-title: "The Move to GatsbyJS"
+title: The Move to GatsbyJS
 date: 2020-05-18 00:01:30 +0530
 ---
 
@@ -50,3 +50,9 @@ I could add exceptions into the plugin to prevent them from being excluded, but 
 All in all, it was overall pretty painless move, other than trying to figure out the JS removal plugin of Gatsby. I might keep tweaking the site, and hopefully I don't put off blog-writing to the point that when I come back again, I get used to another framework and now want to shift my blog to that, repeating the whole cycle again.
 
 Well, fingers crossed!
+
+#### Update:
+
+Improved the SEO of the website, as well as the performance slightly. Grabbed a [better SEO component and a SchemaOrg component](https://github.com/jlengstorf/gatsby-theme-jason-blog/tree/master/src/components/SEO) from a [gatsby blog theme repo](https://github.com/jlengstorf/gatsby-theme-jason-blog/) of all places.
+
+Also deferred loading of the Google Fonts I'm using by following [Google's article](https://web.dev/defer-non-critical-css/) about it. This did require telling TypographyJS not to download any fonts.
