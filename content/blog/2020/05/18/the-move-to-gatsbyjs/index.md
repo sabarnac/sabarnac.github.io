@@ -39,7 +39,7 @@ I also added additional plugins to the Markdown transformer plugin to add [suppo
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why did I tweet this</p>&mdash; Sabarna Chakravarty (@sabarnachk) <a href="https://twitter.com/sabarnachk/status/1262107797610618880?ref_src=twsrc%5Etfw">May 17, 2020</a></blockquote>
 
-Finally, I added [Disqus](https://disqus.com/) for commenting on posts, and used a plugin to swap out React with Preact to reduce build and page sizes slightly.
+Finally, I added [Disqus](https://disqus.com/) for commenting on posts, and used a [plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-preact/) to swap out React with Preact to reduce build and page sizes slightly.
 
 I had also initially added a [plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-no-javascript/) for removing Javascript from the Gatsby generated pages, but removed it because I had misunderstood it's functionality.
 
