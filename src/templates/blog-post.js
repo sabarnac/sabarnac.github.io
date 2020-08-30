@@ -53,7 +53,10 @@ const BlogPostTemplate = ({
             }}
           >
             <small>Written: {post.frontmatter.date}</small>
-            <small>Reading Time: {post.timeToRead} minutes</small>
+            <small>
+              Reading Time: {post.timeToRead}{" "}
+              {post.timeToRead === 1 ? "minute" : "minutes"}
+            </small>
           </div>
         </header>
         <section>{renderAst(post.htmlAst)}</section>
