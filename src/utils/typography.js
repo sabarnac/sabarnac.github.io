@@ -103,8 +103,10 @@ SternGrove.overrideThemeStyles = () => ({
     background: `#171717`,
     color: `#eeeeee`,
   },
-  "twitter-widget.twitter-tweet": {
-    margin: `0 auto ${typography.rhythm(1)} auto !important`,
+  "div.twitter-tweet": {
+    margin: `${typography.rhythm(1)} auto ${typography.rhythm(
+      1
+    )} auto !important`,
   },
 });
 
