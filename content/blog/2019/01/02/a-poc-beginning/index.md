@@ -11,7 +11,7 @@ A "Proof of Concept" (PoC) is a term that most programmers are familiar with. If
 
 A PoC, while not always possible or required to create before starting a project, can provide a ton of benefits to a developer in figuring out their project, from a high-level design and requirements down to even low-level component design. The obvious benefit is that as a PoC is built, the requirements of the application become well understood and a clear higher-level design can be crafted based on experience from building the PoC. This experience can also benefit low-level component design, since understanding how the software has to function can help figure out how components have to be made to ensure a high enough quality for the project is maintained, which is great for reducing your **_WTFs/min_**.
 
-[![XKCD - Donal Knuth](https://blog.codinghorror.com/content/images/uploads/2009/02/6a0120a85dcdae970b012877707a45970c-pi.png)](http://www.osnews.com/story/19266/WTFs_m)
+[![OSNews - WTFs/m](https://blog.codinghorror.com/content/images/uploads/2009/02/6a0120a85dcdae970b012877707a45970c-pi.png)](http://www.osnews.com/story/19266/WTFs_m)
 
 PoCs can also help reduce development time over the long run, since this experience and understanding can help speeden development as fewer changes and mistakes are made throughout the development lifecycle. If a PoC is built well enough from the ground up, iterations of that PoC can be done to further speeden development and prevent the need to rebuild from scratch.
 
