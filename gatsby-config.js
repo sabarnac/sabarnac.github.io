@@ -3,12 +3,12 @@ module.exports = {
     title: `The Coding Disappointment`,
     author: {
       name: `Sabarna Chakravarty`,
-      summary: `Developer with experience in full-stack applications and automations of operational tasks. Big foodie, and a slight weeb.`,
+      summary: `I develop stuff that interests me, I eat a lot, I weeb a little.`,
     },
     description: `A personal little blog to post my various coding adventures and mishaps, as well as any random tidbits from my life.`,
     siteUrl: `https://coding-disappointment.me/`,
     social: {
-      Twitter: `sabarnachk`,
+      Twitter: `DisappointinAf`,
       LinkedIn: `sabarna-chakravarty-29ba72115`,
     },
   },

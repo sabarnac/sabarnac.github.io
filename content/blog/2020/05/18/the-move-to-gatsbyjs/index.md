@@ -37,7 +37,7 @@ I swapped out the default PrismJS theme being used with [prism-funky](https://gi
 
 I also added additional plugins to the Markdown transformer plugin to add [support for embedding React components](https://www.gatsbyjs.org/packages/gatsby-remark-component/), [embedding tweets](https://www.gatsbyjs.org/packages/gatsby-plugin-twitter/), and [embedding code snippets from files](https://www.gatsbyjs.org/packages/gatsby-remark-embed-snippet/).
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why did I tweet this</p>&mdash; Sabarna Chakravarty (@sabarnachk) <a href="https://twitter.com/sabarnachk/status/1262107797610618880?ref_src=twsrc%5Etfw">May 17, 2020</a></blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Why did I tweet this</p>&mdash; DisappointinAf (@DisappointinAf) <a href="https://twitter.com/DisappointinAf/status/1315263891539030017?ref_src=twsrc%5Etfw">October 11, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Finally, I added [Disqus](https://disqus.com/) for commenting on posts, and used a [plugin](https://www.gatsbyjs.org/packages/gatsby-plugin-preact/) to swap out React with Preact to reduce build and page sizes slightly.
 
